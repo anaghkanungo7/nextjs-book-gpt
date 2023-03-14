@@ -67,7 +67,7 @@ export default function Home() {
         <div className="flex h-[60px] border-b border-gray-300 py-2 px-8 items-center justify-between">
           <div className="font-bold text-2xl flex items-center">
             {/* Logo here, if any */}
-            <a className="ml-2 hover:opacity-50" href="https://localhost:3000">
+            <a className="ml-2 hover:opacity-50" href="https://nextjs-book-gpt.vercel.app/">
               Business Books GPT
             </a>
           </div>
@@ -94,15 +94,15 @@ export default function Home() {
               time
             </div>
 
-            <div className="mt-6 text-center text-lg">
+            <div className="mt-6 text-center text-sm">
               <ul>
-                <li>The Intelligent Investor by Benjamin Graham</li>
-                <li>The Lean Startup by Eric Ries</li>
-                <li>Atomic Habits by James Clear</li>
-                <li>Outliers by Malcom Gladwell</li>
-                <li>Start with Why by Simon Sinek</li>
-                <li>How to Win Friends and Influence People by Dale Carnegie</li>
-                <li>Rich Dad and Poor Dad by Robert Kiyosaki</li>
+                <li><b>The Intelligent Investor</b> by <i>Benjamin Graham</i></li>
+                <li><b>The Lean Startup</b> by <i>Eric Ries</i></li>
+                <li><b>Atomic Habits</b> by <i>James Clear</i></li>
+                <li><b>Outliers</b> by <i>Malcom Gladwell</i></li>
+                <li><b>Start with Why</b> by <i>Simon Sinek</i></li>
+                <li><b>How to Win Friends and Influence People</b> by <i>Dale Carnegie</i></li>
+                <li><b>Rich Dad and Poor Dad</b> by <i>Robert Kiyosaki</i></li>
               </ul>
             </div>
 
