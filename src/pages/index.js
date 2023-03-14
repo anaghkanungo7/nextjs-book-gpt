@@ -123,7 +123,7 @@ export default function Home() {
 
             <div className="mt-4">
               {/* Output here */}
-              <textarea name="" id="result-textfield" cols="40" rows="15" className="resize-none select-none bg-slate-300 text-gray-600 rounded p-3" readOnly value={result}/>
+              <textarea name="" id="result-textfield" cols="40" rows="15" className="resize-none select-none bg-gray-800 text-white rounded p-3" readOnly value={result}/>
             </div>
           </div>
         </div>
