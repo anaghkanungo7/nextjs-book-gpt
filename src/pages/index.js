@@ -35,7 +35,7 @@ export default function Home() {
   
   const callAPI = async (apikey, prompt, temperature) => {
     try {
-      // setLoading(true)
+      setLoading(true)
       const res = await fetch(`https://flask-business-books-gpt-api-xsuqww7fzq-ue.a.run.app/answer`, {
         method: 'POST',
       headers: {
@@ -52,7 +52,7 @@ export default function Home() {
       console.log("Fetched answer!!");
       const data = await res.text();
       console.log(data);
-      // setLoading(false)
+      setLoading(false)
       setResult(data);
       console.log("should've been updated!!");
 
@@ -123,7 +123,7 @@ export default function Home() {
 
             <div className="mt-4">
               {/* Output here */}
-              <textarea name="" id="result-textfield" cols="40" rows="15" className="resize-none select-none bg-gray-800 text-white rounded p-3" readOnly value={result}/>
+              <textarea name="" id="result-textfield" cols="40" rows="15" className="resize-none select-none bg-gray-800 text-white rounded p-3" readOnly value={isLoading ? "Loading..." : result}/>
             </div>
           </div>
         </div>
