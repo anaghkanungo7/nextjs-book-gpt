@@ -95,6 +95,18 @@ export default function Home() {
             </div>
 
             <div className="mt-6 text-center text-lg">
+              <ul>
+                <li>The Intelligent Investor by Benjamin Graham</li>
+                <li>The Lean Startup by Eric Ries</li>
+                <li>Atomic Habits by James Clear</li>
+                <li>Outliers by Malcom Gladwell</li>
+                <li>Start with Why by Simon Sinek</li>
+                <li>How to Win Friends and Influence People by Dale Carnegie</li>
+                <li>Rich Dad and Poor Dad by Robert Kiyosaki</li>
+              </ul>
+            </div>
+
+            <div className="mt-6 text-center text-lg">
               <input
                 className="w-96 shadow appearance-none border rounded py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                 id="prompt-field"
@@ -125,16 +137,7 @@ export default function Home() {
               target="_blank"
               rel="noreferrer"
             >
-              Anagh Kanungo
-            </a>
-            based on
-            <a
-              className="hover:opacity-50 mx-1"
-              href="https://twitter.com/naval"
-              target="_blank"
-              rel="noreferrer"
-            >
-              this list of books.
+              Anagh Kanungo.
             </a>
           </div>
           <div className="flex space-x-4">
